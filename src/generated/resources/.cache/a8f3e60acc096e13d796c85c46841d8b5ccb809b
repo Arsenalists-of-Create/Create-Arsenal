@@ -1,0 +1,9 @@
+// 1.20.1	2025-03-30T11:34:13.8985457	Registrate Provider for create_arsenal [Recipes, Advancements, Loot Tables, Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), Blockstates, Item models, Lang (en_us/en_ud)]
+9f718a1e87269cd314aa41bba3c6e9dd939be39d assets/create_arsenal/lang/en_ud.json
+5e9cde9741523e494ed8860e62da620d196d887c assets/create_arsenal/lang/en_us.json
+289847d24a66f7cb54113f24eeccf109b7e34ef6 assets/create_arsenal/models/item/blue_tracer_tip.json
+e546ffb2bbd518564bc5ad02086330a34c778ca8 assets/create_arsenal/models/item/green_tracer_tip.json
+505b521ace32220aaf81fc52163a977b49121209 assets/create_arsenal/models/item/orange_tracer_tip.json
+e70b10041845542711b7eace8632435972b6dba1 assets/create_arsenal/models/item/pink_tracer_tip.json
+c710693b7eb45060e8836e1ce32de068a3313270 assets/create_arsenal/models/item/red_tracer_tip.json
+f9d363de18abac5cab3d6b53e33a82427e5b0b9a assets/create_arsenal/models/item/white_tracer_tip.json
