@@ -28,12 +28,13 @@ public class CreateArsenal {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         MinecraftForge.EVENT_BUS.register(this);
         REGISTRATE.registerEventListeners(modEventBus);
-        ModItems.register();
+        ArsenalItems.register();
         ModBlocks.register();
         ModBlockEntityTypes.register();
         ModProjectiles.register();
         ModCreativeTabs.register(modEventBus);
         ModLang.register();
+        ArsenalRecipes.register(modEventBus);
         modEventBus.addListener(CreateArsenal::init);
         modEventBus.addListener(CreateArsenal::clientInit);
     }

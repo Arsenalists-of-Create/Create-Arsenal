@@ -18,7 +18,7 @@ public class ModCreativeTabs {
     public static DeferredRegister<CreativeModeTab> CREATIVE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CreateArsenal.MODID);
 
     public static final RegistryObject<CreativeModeTab> ARSENAL_CREATIVE_TAB = addTab("arsenal", "Create: Arsenal",
-            ModItems.ORANGE_TRACER_TIP::asStack);
+            ArsenalItems.ORANGE_TRACER_TIP::asStack);
 
 
     public static RegistryObject<CreativeModeTab> addTab(String id, String name, Supplier<ItemStack> icon) {
@@ -33,12 +33,12 @@ public class ModCreativeTabs {
     }
 
     private static void displayItems(CreativeModeTab.ItemDisplayParameters pParameters, CreativeModeTab.Output pOutput) {
-        pOutput.accept(ModItems.BLUE_TRACER_TIP.asStack());
-        pOutput.accept(ModItems.RED_TRACER_TIP.asStack());
-        pOutput.accept(ModItems.GREEN_TRACER_TIP.asStack());
-        pOutput.accept(ModItems.PINK_TRACER_TIP.asStack());
-        pOutput.accept(ModItems.WHITE_TRACER_TIP.asStack());
-        pOutput.accept(ModItems.ORANGE_TRACER_TIP.asStack());
+        pOutput.accept(ArsenalItems.BLUE_TRACER_TIP.asStack());
+        pOutput.accept(ArsenalItems.RED_TRACER_TIP.asStack());
+        pOutput.accept(ArsenalItems.GREEN_TRACER_TIP.asStack());
+        pOutput.accept(ArsenalItems.PINK_TRACER_TIP.asStack());
+        pOutput.accept(ArsenalItems.WHITE_TRACER_TIP.asStack());
+        pOutput.accept(ArsenalItems.ORANGE_TRACER_TIP.asStack());
     }
 
 
