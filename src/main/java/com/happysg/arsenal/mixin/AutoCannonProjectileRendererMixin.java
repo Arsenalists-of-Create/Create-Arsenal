@@ -33,7 +33,7 @@ public abstract class AutoCannonProjectileRendererMixin<T extends AbstractAutoca
     @Unique
     private static final ResourceLocation create_Arsenal$COLOR_LOCATION = CreateBigCannons.resource("textures/entity/color.png");
     @Unique
-    private static final RenderType create_Arsenal$COLOR = RenderType.entityTranslucent(create_Arsenal$COLOR_LOCATION);
+    private static final RenderType create_Arsenal$COLOR = RenderType.entityTranslucentCull(create_Arsenal$COLOR_LOCATION);
     protected AutoCannonProjectileRendererMixin(EntityRendererProvider.Context context) {
         super(context);
     }

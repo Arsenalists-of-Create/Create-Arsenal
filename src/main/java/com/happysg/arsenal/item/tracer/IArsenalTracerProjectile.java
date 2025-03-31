@@ -14,6 +14,9 @@ public interface IArsenalTracerProjectile {
 
     @Nullable
     default ArsenalTracerItem getTracerItem() {
+        if (getArsenalTracer() == null) {
+            return null;
+        }
         if (getArsenalTracer().getItem() instanceof ArsenalTracerItem tracerItem) {
             return tracerItem;
         }
