@@ -29,10 +29,10 @@ public class CreateArsenal {
         MinecraftForge.EVENT_BUS.register(this);
         REGISTRATE.registerEventListeners(modEventBus);
         ArsenalItems.register();
-        ModBlocks.register();
-        ModBlockEntityTypes.register();
+        ArsenalBlocks.register();
+        ArsenalBlockEntityTypes.register();
         ModProjectiles.register();
-        ModCreativeTabs.register(modEventBus);
+        ArsenalCreativeTabs.register(modEventBus);
         ModLang.register();
         ArsenalRecipes.register(modEventBus);
         modEventBus.addListener(CreateArsenal::init);

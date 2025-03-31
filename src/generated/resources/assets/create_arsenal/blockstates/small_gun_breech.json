@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=east,handles=false": {
+      "model": "create_arsenal:block/small_gun_breech",
+      "y": 90
+    },
+    "facing=east,handles=true": {
+      "model": "create_arsenal:block/small_gun_breech_handles",
+      "y": 90
+    },
+    "facing=north,handles=false": {
+      "model": "create_arsenal:block/small_gun_breech"
+    },
+    "facing=north,handles=true": {
+      "model": "create_arsenal:block/small_gun_breech_handles"
+    },
+    "facing=south,handles=false": {
+      "model": "create_arsenal:block/small_gun_breech",
+      "y": 180
+    },
+    "facing=south,handles=true": {
+      "model": "create_arsenal:block/small_gun_breech_handles",
+      "y": 180
+    },
+    "facing=west,handles=false": {
+      "model": "create_arsenal:block/small_gun_breech",
+      "y": 270
+    },
+    "facing=west,handles=true": {
+      "model": "create_arsenal:block/small_gun_breech_handles",
+      "y": 270
+    }
+  }
+}

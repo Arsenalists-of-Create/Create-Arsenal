@@ -1,9 +1,15 @@
-// 1.20.1	2025-03-30T11:34:13.8985457	Registrate Provider for create_arsenal [Recipes, Advancements, Loot Tables, Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), Blockstates, Item models, Lang (en_us/en_ud)]
-9f718a1e87269cd314aa41bba3c6e9dd939be39d assets/create_arsenal/lang/en_ud.json
-5e9cde9741523e494ed8860e62da620d196d887c assets/create_arsenal/lang/en_us.json
+// 1.20.1	2025-03-30T19:13:35.0322341	Registrate Provider for create_arsenal [Recipes, Advancements, Loot Tables, Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), Blockstates, Item models, Lang (en_us/en_ud)]
+a56208c63e41177d6538414c6549d305d6c5c00f assets/create_arsenal/blockstates/small_gun_barrel.json
+ee0c909e25f896d016866510aa06e45acb869be6 assets/create_arsenal/blockstates/small_gun_breech.json
+a4ba73426c26c46b14b14b386263fadcf0bd06cd assets/create_arsenal/lang/en_ud.json
+a25b1de26ceac70faaba8e87a7843071333e1385 assets/create_arsenal/lang/en_us.json
 289847d24a66f7cb54113f24eeccf109b7e34ef6 assets/create_arsenal/models/item/blue_tracer_tip.json
 e546ffb2bbd518564bc5ad02086330a34c778ca8 assets/create_arsenal/models/item/green_tracer_tip.json
 505b521ace32220aaf81fc52163a977b49121209 assets/create_arsenal/models/item/orange_tracer_tip.json
 e70b10041845542711b7eace8632435972b6dba1 assets/create_arsenal/models/item/pink_tracer_tip.json
 c710693b7eb45060e8836e1ce32de068a3313270 assets/create_arsenal/models/item/red_tracer_tip.json
+07ca526299affe80ae0cbaaae5e4b17c876ee70e assets/create_arsenal/models/item/small_gun_barrel.json
+51e65cdf7e20fc3d75d6f99b4bebea5d05772f56 assets/create_arsenal/models/item/small_gun_breech.json
 f9d363de18abac5cab3d6b53e33a82427e5b0b9a assets/create_arsenal/models/item/white_tracer_tip.json
+445e9fe421ea68428c7369c68c1ac9e68e8a8445 data/create_arsenal/loot_tables/blocks/small_gun_barrel.json
+7c511d2b666232c9753f5a559b33e62fd10904ee data/create_arsenal/loot_tables/blocks/small_gun_breech.json

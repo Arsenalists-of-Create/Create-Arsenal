@@ -14,7 +14,7 @@ import java.util.function.Supplier;
 
 import static com.happysg.arsenal.CreateArsenal.REGISTRATE;
 
-public class ModCreativeTabs {
+public class ArsenalCreativeTabs {
     public static DeferredRegister<CreativeModeTab> CREATIVE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CreateArsenal.MODID);
 
     public static final RegistryObject<CreativeModeTab> ARSENAL_CREATIVE_TAB = addTab("arsenal", "Create: Arsenal",
@@ -26,13 +26,15 @@ public class ModCreativeTabs {
         REGISTRATE.addRawLang(itemGroupId, name);
         CreativeModeTab.Builder tabBuilder = CreativeModeTab.builder()
                 .icon(icon)
-                .displayItems(ModCreativeTabs::displayItems)
+                .displayItems(ArsenalCreativeTabs::displayItems)
                 .title(Components.translatable(itemGroupId))
                 .withTabsBefore(ModGroup.MAIN_TAB_KEY);
         return CREATIVE_TABS.register(id, tabBuilder::build);
     }
 
     private static void displayItems(CreativeModeTab.ItemDisplayParameters pParameters, CreativeModeTab.Output pOutput) {
+        pOutput.accept(ArsenalBlocks.SMALL_GUN_BREECH.asStack());
+        pOutput.accept(ArsenalBlocks.SMALL_GUN_BARREL.asStack());
         pOutput.accept(ArsenalItems.BLUE_TRACER_TIP.asStack());
         pOutput.accept(ArsenalItems.RED_TRACER_TIP.asStack());
         pOutput.accept(ArsenalItems.GREEN_TRACER_TIP.asStack());
